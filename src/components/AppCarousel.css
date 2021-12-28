@@ -1,0 +1,62 @@
+.Carousel{
+    display:flex;
+}
+.body__text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:330px;
+    left:1000px;
+
+}
+.scooter__img1{
+    position: absolute;
+    width:800px;
+    left:108px;
+    top:200px;
+}
+.circle__img1{
+    height: 650px;
+    position: absolute;
+    left: -90px;
+    top:320px;
+}
+.item1__headline{
+    width:400px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    line-height: 119.5%;
+    margin-bottom: 40px;;
+}
+.item1__para{
+    width:500px;
+    font-size:22px;
+    line-height: 119.5%;
+    font-family: 'Poly', serif;
+    margin-bottom:30px;
+}
+.carousel__button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.carousel__bottomBtn{
+position:absolute;
+top:890px;
+left:45%;
+margin:40px 0 35px 0;
+}
+
+.carousel-dots{
+    height:20px;
+    width:20px;
+    text-decoration: none;
+    border:none;
+    border-radius:20px;
+    background-color: #D3D3D3;
+    margin:0 5px 0 5px;
+}
+.page__active{
+    background-color: #DB1218;
+}

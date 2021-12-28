@@ -1,0 +1,28 @@
+.DropDown{
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    background-color:#F5F3F4;
+    z-index:1;
+    height: 190px;
+    place-items: center;
+}
+.dropDown-text{
+    font-family: 'Poly', serif;
+    font-size:35px;
+    line-height: 119.5%;
+    color:grey;
+    position:relative;
+}
+.dropDown-text:hover:after{
+        content : "";
+        position : absolute;
+        width : 60%;
+        height : 2.5px;
+        background-color: #DB1218;
+        bottom: -10px;
+        left: 0;
+}
+.dropDown-text:hover{
+    color:black;
+}

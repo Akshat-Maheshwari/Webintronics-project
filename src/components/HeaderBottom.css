@@ -1,0 +1,64 @@
+.HeaderBottom{
+    background-color: #0B090A;
+    height:6.5rem;
+    padding:1.68rem 6.75rem 1.68rem 10rem;
+    font-family: 'Poly', serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display:flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.headerBottom__logo{
+    width: 3.8rem;
+    height: 3.8rem;
+}
+.headerBottom__options{
+    left: 8.3rem;
+    position: relative;
+}
+.headerBottom__option{
+    color:white;
+    text-decoration: none;
+    margin-left:4.375rem;
+}
+.red-button{
+    background-color: #DB1218;
+    border: none;
+    color:white;
+    height:2.5rem;
+    width:8.43rem;
+    font-family: 'Poly', serif;
+    transition: 0.3s;
+}
+
+.arrow {
+    border: solid red;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom:2px;
+    margin-left:2px;
+    
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.underline span:hover{
+    border-bottom: 3px solid #DB1218;
+    ;
+    border-radius: 2px;
+    padding-bottom: 6px;
+}
+.headerBottom__button:hover{
+background-color: white;
+color:black;
+transition: 0.3s;
+}
+  a:hover{
+    color:white;
+  }

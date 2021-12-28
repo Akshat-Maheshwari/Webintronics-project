@@ -1,0 +1,8 @@
+.carousel__dots{
+display:inline;
+justify-content: center;
+}
+
+.carousel__dots{
+    margin-left:10px;
+}

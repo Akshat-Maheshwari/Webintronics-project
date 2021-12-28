@@ -1,0 +1,21 @@
+.HeaderTop{
+    background-color: black;
+    height:3rem;
+    font-family: 'Poly', serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display:flex;
+    padding:0.87rem 6.75rem 0.87rem 10rem;
+    justify-content: space-between;
+}
+.Header__support{
+    color: white;
+}
+.headerTop__hyperlink{
+    color: #FF0007;
+}
+.headerTop__option{
+    margin-left:3.18rem;
+    color:white;
+    text-decoration: none;
+}
